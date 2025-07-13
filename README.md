@@ -1,12 +1,53 @@
-# React + Vite
+# 🎬 Netflix Clone with React + TMDB
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive clone of the Netflix web app built using **React**, **TMDB API**, and **Vite**.  
+Users can view trending movies, top-rated content, and watch trailers via YouTube.
 
-Currently, two official plugins are available:
+![Screenshot](./public/preview-desktop.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Browse trending, top-rated & genre-specific movies
+- 🎬 Watch trailers inside modal overlays
+- 📱 Fully responsive for all screen sizes
+- 🧠 Uses TMDB API and YouTube trailers
+- ⚡ Built with React, Vite, and Axios
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech       | Purpose                  |
+|------------|---------------------------|
+| React      | Frontend UI               |
+| Vite       | Fast dev server/build tool|
+| TMDB API   | Movie data                |
+| Axios      | HTTP requests             |
+| react-youtube | YouTube player          |
+| movie-trailer | Get trailer URL by name |
+
+---
+
+## 🌐 Live Demo
+
+> You can deploy this using [Vercel](https://vercel.com/) or [Netlify](https://netlify.com)
+
+---
+
+## 🔧 Setup Instructions
+
+```bash
+# 1. Clone this repository
+git clone https://github.com/yourusername/netflix-clone.git
+cd netflix-clone
+
+# 2. Install dependencies
+npm install
+
+# 3. Create .env file in root and add your TMDB API key
+VITE_TMDB_API_KEY=your_tmdb_key_here
+
+# 4. Run the development server
+npm run dev
